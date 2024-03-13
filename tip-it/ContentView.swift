@@ -18,26 +18,30 @@ struct ContentView: View {
                     Button("10%") {
                         
                     }
+                    .padding(.all, 20.0)
                     .background(.blue)
-                    .frame(width: 50.0, height: 50.0)
+                    
                     Button("15%") {
                         
                     }
+                    .padding(.all, 20.0)
                     .background(.blue)
-                    .frame(width: 50.0, height: 50.0)
+                    
                 }
                 HStack {
                     Button("20%") {
                         
                     }
+                    .padding(.all, 20.0)
                     .background(.blue)
-                    .frame(width: 50.0, height: 50.0)
+                    
                     
                     Button("Custom") {
                         
                     }
+                    .padding(.all, 20.0)
                     .background(.yellow)
-                    .frame(width: 50.0, height: 50.0)
+                    
                     
                 }
             }
